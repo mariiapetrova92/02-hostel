@@ -7,6 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Заголовок </title>
 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400i,500,700&amp;subset=cyrillic,latin-ext" rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -20,41 +21,101 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
-    
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 logo">
+            <div class="row">
+              <img src="img/logo.png" alt="logo">
+            </div> 
+            <div class="row social">
+              <a href="#"><img src="img/in.png" alt="Linked in"></a>
+              <a href="#"><img src="img/vk.png" alt="Vk"></a>
+              <a href="#"><img src="img/ok.png" alt="Odnoklasniki"></a>
+              <a href="#"><img src="img/youtube.png" alt="Youtube"></a>
+              <a href="#"><img src="img/insta.png" alt="Instagram"></a>
+            </div>
+          </div>
+          <div class="col-md-4 logo-revizorro text-center">
+            <img src="img/logo-revizorro.png" alt="logo-revizorro">
+          </div>
+          <div class="col-md-4 phone text-right">
+            <a href="tel:999999999"><h3>9 (99) 999-99-99</h3></a>
+            <p>
+              Круглосуточно
+            </p>
+          </div>
+        </div>
 
-    <!-- Modal -->
-        <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                
-              </div>
-              <div class="modal-body">
-               <div class="row">
-                 
-               </div>
-              </div>
+        <div class="row header text-center">
+          <h1>Европейский хостел <br> в центре Киева</h1>
+        </div>
+
+        <div class="row">
+          <div class="main-form">
+            <div class="row text-center header-form">
+              <h2>Забронируйте номер прямо сейчас!</h2>
+            </div>
+            <div class="row text-center">
+              <form action="#">
+                <div class="col-md-3">
+                  <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="col-md-3">
+                  <input type="text" placeholder="Ваше телефон">
+                </div>
+                <div class="col-md-3">
+                  <input type="text" placeholder="Ваше email">
+                </div>
+                <div class="col-md-3">
+                  <button class="main-btn" type="submit">Забронировать</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>
 
+      </div>
+    </section>
+
+    <section id="eggs">
+      <div class="container">
+        <div class="row text-center header-eggs">
+          <h2>При бронировании номера на сайте трансфер БЕСПЛАТНО!</h2>
+        </div>
+        <div class="row icons text-center">
+          <div class="col-sm-2">
+            <img src="img/egg-1.png" alt="Бесплатная парковка">
+            <h4>Бесплатная парковка</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/egg-2.png" alt="Бесплатный WI-FI">
+            <h4>Бесплатный WI-FI</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/egg-3.png" alt="Доступ 24 часа">
+            <h4>Доступ 24 часа</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/egg-4.png" alt="Оборудованная кухня">
+            <h4>Оборудованная кухня</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/egg-5.png" alt="Уборка номеров">
+            <h4>Уборка номеров</h4>
+          </div>
+          <div class="col-sm-2">
+            <img src="img/egg-6.png" alt="Такси до аэропорта">
+            <h4>Такси до аэропорта</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-      new WOW().init();
-    </script>
-    <script>
-      $(document).ready(
-          function() {
-              $("html").niceScroll({cursorcolor:"#000"});
-          }
-      );
-    </script>
+
   </body>
 </html>

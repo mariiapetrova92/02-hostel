@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'UbuntuMedium';
+    src: url('fonts/UbuntuMedium.eot');
+    src: url('fonts/UbuntuMedium.eot') format('embedded-opentype'),
+         url('fonts/UbuntuMedium.woff2') format('woff2'),
+         url('fonts/UbuntuMedium.woff') format('woff'),
+         url('fonts/UbuntuMedium.ttf') format('truetype'),
+         url('fonts/UbuntuMedium.svg#UbuntuMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuRegular';
+    src: url('fonts/UbuntuRegular.eot');
+    src: url('fonts/UbuntuRegular.eot') format('embedded-opentype'),
+         url('fonts/UbuntuRegular.woff2') format('woff2'),
+         url('fonts/UbuntuRegular.woff') format('woff'),
+         url('fonts/UbuntuRegular.ttf') format('truetype'),
+         url('fonts/UbuntuRegular.svg#UbuntuRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'UbuntuBold';
+    src: url('fonts/UbuntuBold.eot');
+    src: url('fonts/UbuntuBold.eot') format('embedded-opentype'),
+         url('fonts/UbuntuBold.woff2') format('woff2'),
+         url('fonts/UbuntuBold.woff') format('woff'),
+         url('fonts/UbuntuBold.ttf') format('truetype'),
+         url('fonts/UbuntuBold.svg#UbuntuBold') format('svg');
+}
+
+section#main {
+	padding-top: 20px;
+	height: 1335px;
+	background: url(../img/main-bg.jpg) no-repeat center center;
+}
+.phone h3 {
+	color: #fff;
+	font-family: 'UbuntuMedium';
+}
+.phone p {
+	color: #fff;
+	font-family: 'UbuntuBold';
+}
+
+.social img {
+	width: 39px;
+}
+.social {
+	padding-left: 35px;
+	padding-top: 5px;
+	margin-left: -55px;
+}
+.header h1 {
+	color: #fff;
+	font-family: 'UbuntuBold';
+	text-transform: uppercase;
+	margin-top: 3%;
+}
+.header-form h2 {
+	color: #a60436;
+	font-family: 'UbuntuMedium';
+}
+.main-form {
+	background-color: rgba(255,255,255,0.47);
+	padding-bottom: 30px;
+	margin-top: 5%;
+}
+.main-form input{
+	width: 80%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+}
+.main-btn {
+	background-color: #a60436;
+	bottom: none;
+	border-bottom: 3px solid #4d0219;
+	border-radius: 5px;
+	padding: 12px 40px; 
+	color: #fff;
+	font-family: 'UbuntuRegular';
+}
+.main-btn:hover {
+	background-color: #d20444;
+	border-bottom: 1px solid #4d0219;
+	margin-top: 2px;
+}
+section#eggs {
+	padding-top: 3%;
+}
+.header-eggs h2 {
+	color: #363636;
+	font-size: 24px;
+}
+.icons img {
+	width: 100px;
+}
+.icons {
+	margin-top: 3%;
+}
