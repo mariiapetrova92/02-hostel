@@ -30,8 +30,8 @@
 
 section#main {
 	padding-top: 20px;
-	height: 1335px;
-	background: url(../img/main-bg.jpg) no-repeat center center;
+	height: 800px;
+	background: url(../img/main-bg.jpg) no-repeat top center;
 }
 .phone h3 {
 	color: #fff;
@@ -97,4 +97,65 @@ section#eggs {
 }
 .icons {
 	margin-top: 3%;
+}
+
+hr {
+	border-color: #a60436;
+    border-width: 3px;
+}
+/* =====  Prices  =====*/
+
+.card img {
+	padding: 3px;
+	width: 100%;
+}
+
+section#price {
+	padding-bottom: 3%;
+}
+
+.header {
+	margin-bottom: 3%;
+}
+.card {
+	border: 2px solid #a60436;
+	margin-bottom: 5px;
+	padding-bottom: 20px;
+}
+
+.order-btn {
+	background-color: #a60436;
+	bottom: none;
+	border-bottom: 3px solid #4d0219;
+	border-radius: 5px;
+	padding: 12px 40px; 
+	color: #fff;
+	font-family: 'UbuntuRegular';
+}
+
+.order-btn:hover {
+	background-color: #d20444;
+	border-bottom: 1px solid #4d0219;
+	margin-top: 2px;
+}
+
+.card h3 {
+	font-family: 'UbuntuBold';
+}
+
+.card h4 {
+	font-family: 'UbuntuMedium';
+}
+.card ul {
+	padding-right: 50px;
+}
+.card li {
+	font-family: 'UbuntuMedium';
+}
+
+/* ==========  Adaptive  ==========*/
+@media(min-width:0) and (max-width:320px) {
+	.logo {
+		
+	}
 }
