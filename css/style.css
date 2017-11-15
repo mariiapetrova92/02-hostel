@@ -156,6 +156,17 @@ section#price {
 /* ==========  Adaptive  ==========*/
 @media(min-width:0) and (max-width:320px) {
 	.logo {
-		
+		text-align: center;
 	}
+	img#logo {
+		width: 70px;
+	}
+	.social img{
+		width: 20px;
+	}
+	.logo-revizorro img {
+		width: 70px;
+		text-align: center;
+	}
+
 }
