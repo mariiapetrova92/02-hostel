@@ -1,3 +1,7 @@
+html,body {
+	overflow-x: hidden; 
+}
+
 @font-face {
     font-family: 'UbuntuMedium';
     src: url('fonts/UbuntuMedium.eot');
@@ -165,8 +169,35 @@ section#price {
 		width: 20px;
 	}
 	.logo-revizorro img {
-		width: 70px;
+		width:80px;
 		text-align: center;
 	}
-
+	.phone {
+		text-align: center;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	.header-form h2 {
+		font-size: 18px;
+	}
+	.main-form input{
+		margin-top: 5px;
+	}
+	.main-form button {
+		margin-top: 9px;
+	}
+	.main-form button:hover {
+		margin-top: 11px;
+	}
+	.main-form {
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+	section#main {
+		height: 600px;
+	}
+	.header-eggs h2 {
+		font-size: 16px;
+	}
 }
